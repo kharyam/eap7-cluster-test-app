@@ -12,7 +12,6 @@ public class Counter implements Serializable{
     private int count;
 
     private static final long serialVersionUID = -1;
-    
 
     @Produces
     @Named
