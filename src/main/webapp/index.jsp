@@ -26,6 +26,8 @@
 </head>
 <body>
     <div id="container">
+
+        <h2>Session Scoped Counter: ${count}</h2>
         <div align="right" class="dualbrand">
             <img src="resources/gfx/rhjb_eap_logo.png" />
         </div>
