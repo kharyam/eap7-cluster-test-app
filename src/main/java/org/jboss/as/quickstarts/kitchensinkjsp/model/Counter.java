@@ -5,9 +5,7 @@ import java.io.Serializable;
 import javax.enterprise.context.SessionScoped;
 import javax.enterprise.inject.Produces;
 import javax.inject.Named;
-import org.jboss.ejb3.annotation.Clustered;
 @SessionScoped
-@Clustered
 public class Counter implements Serializable{
     private int count;
 
