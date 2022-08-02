@@ -26,4 +26,10 @@ public class Counter implements Serializable{
         count++;
     }
 
+    @Produces
+    @Named
+    public String getHostname() {
+        return System.getenv("HOSTNAME");
+    }
+
 }
