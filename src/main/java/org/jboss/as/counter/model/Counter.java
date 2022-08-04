@@ -1,4 +1,4 @@
-package org.jboss.as.quickstarts.kitchensinkjsp.model;
+package org.jboss.as.counter.model;
 
 import java.io.Serializable;
 
@@ -9,7 +9,7 @@ import javax.inject.Named;
 public class Counter implements Serializable{
     private int count;
 
-    private static final long serialVersionUID = -1;
+    private static final long serialVersionUID = 1L;
 
     @Produces
     @Named

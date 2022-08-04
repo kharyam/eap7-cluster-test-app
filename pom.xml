@@ -27,10 +27,10 @@
         <version>7.4.0.GA</version>
         <relativePath>parent-pom.xml</relativePath>
     </parent>
-    <artifactId>kitchensink-jsp</artifactId>
+    <artifactId>stateful-counter</artifactId>
     <packaging>war</packaging>
-    <name>Quickstart: kitchensink-jsp</name>
-    <description>A kitchensink project with a JSP front end</description>
+    <name>Stateful Counter</name>
+    <description>Stateful counter for testing clustering</description>
 
     <licenses>
         <license>
